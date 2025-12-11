@@ -13,19 +13,16 @@ export default function Todos() {
       .then((data) => setTodos(data));
   }, []);
 
-  // **ADD**
   const handleAdd = (newTodo) => {
     setTodos((prev) => [...prev, newTodo]);
   };
 
-  // **UPDATE**
   const handleUpdate = (updated) => {
     setTodos((prev) =>
       prev.map((item) => (item.id === updated.id ? updated : item))
     );
   };
 
-  // **DELETE**
   const handleDelete = (id) => {
     Swal.fire({
       title: "Silinsin?",

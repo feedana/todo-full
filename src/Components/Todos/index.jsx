@@ -4,7 +4,7 @@ import Swal from "sweetalert2";
 export default function Todos() {
   const [todos, setTodos] = useState([]); 
 
-  // ============todos from json==================
+  
   useEffect(() => {
     fetch("http://localhost:3001/todos")
       .then((res) => res.json())
