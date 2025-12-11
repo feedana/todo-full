@@ -1,0 +1,19 @@
+{
+  "todos": [
+    {
+      "id": "f637",
+      "todo": "bilet al",
+      "completed": false
+    },
+    {
+      "id": "996c",
+      "todo": "ders oxu",
+      "completed": false
+    },
+    {
+      "id": "2f91",
+      "todo": "ders notlari yaz",
+      "completed": false
+    }
+  ]
+}
